@@ -4,6 +4,10 @@
 
 Encontrar o imóvel ideal pode ser uma tarefa desafiadora e muitas vezes frustrante. A dificuldade em encontrar uma propriedade que atenda ao gosto pessoal, orçamento e necessidades individuais, aliada à subjetividade na correspondência das expectativas com o corretor, pode tornar esse processo ainda mais complexo. Neste artigo, exploraremos uma solução inovadora baseada em Inteligência Artificial (IA) que visa superar esses obstáculos e proporcionar uma experiência eficiente e satisfatória na busca por imóveis.
 
+[`Apresentação em Slides`](pdf/apresentacao.pdf)
+
+![Apresentação](img/intro.png)
+
 ## **O Desafio da Busca por Imóveis**
 
 ### **Dificuldades Enfrentadas**
