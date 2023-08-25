@@ -1,0 +1,30 @@
+name:
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.15
+  - pip
+  - bottleneck
+  - pip:
+      - pandas
+      - numpy
+      - unidecode
+      - pycep_correios
+      - missingno
+      - requests
+      - beautifulsoup4
+      - tqdm
+      - matplotlib
+      - seaborn
+      - folium
+      - branca
+      - nltk
+      - spacy
+      - pyldavis
+      - scikit-learn
+      - lightgbm
+      - category_encoders
+      - gensim
+      - ipywidgets
