@@ -1,30 +1,40 @@
-name:
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name tracking-barbell-exercises > environment.yml
+#    conda env remove --name tracking-barbell-exercises
+#    conda env list
+
+name: recomendador-imoveis
 channels:
   - anaconda
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.15
+  - python=3.9.4
   - pip
   - bottleneck
   - pip:
-      - pandas
-      - numpy
-      - unidecode
-      - pycep_correios
-      - missingno
-      - requests
-      - beautifulsoup4
-      - tqdm
-      - matplotlib
-      - seaborn
-      - folium
-      - branca
-      - nltk
-      - spacy
-      - pyldavis
-      - scikit-learn
-      - lightgbm
-      - category_encoders
-      - gensim
-      - ipywidgets
+      - pandas==1.2.4
+      - numpy==1.23
+      - unidecode==
+      - pycep_correios==1.2.0
+      - missingno==0.4.2
+      - requests==2.29.0
+      - beautifulsoup4==4.12.2
+      - tqdm==4.65.0
+      - matplotlib==3.7.1
+      - seaborn==0.12.2
+      - folium==0.12.0
+      - branca==0.6.0
+      - nltk==3.8.1
+      - spacy==3.0.6
+      - pyldavis==3.3.1
+      - scikit-learn==0.24.2
+      - lightgbm==3.3.5
+      - category_encoders==2.2.2
+      - gensim==4.0.1
+      - ipywidgets==8.0.4
