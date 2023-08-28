@@ -1,6 +1,0 @@
-Foi utilizado para o simulador do aplicativo (“07_model_lda&rf_simulador_app.ipynb”) a biblioteca voila: 
-conda install -c conda-forge voila
-
-Exemplo: voila "07_model_lda&rf_simulador_app.ipynb"
-
-Obs.: Rodar o notebook "07_model_lda&rf_simulador_app.ipynb" dentro da pasta
